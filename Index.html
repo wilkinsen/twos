@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Koperasi Sutomo 1 Medan</title>
-    <link rel="Icon" href="SMA SUTOMO MEDAN.jpg">
+    <link rel="Icon" href="sutomo/SMA SUTOMO MEDAN BG .jpg">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <header>
             <div class="image-text">
                 <span class="image">
-                    <img src="SMA SUTOMO MEDAN.jpg" alt="Logo">
+                    <img src="sutomo/SMA SUTOMO MEDAN BG .jpg" alt="Logo">
                 </span>
 
                 <div class="text header-text">
@@ -32,31 +32,31 @@
                     </li>
                     <ul class="menu-links">
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="#home">
                                 <i class='bx bx-home icon'></i>
                                 <span class="text nav-text">Home</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="#keranjang">
                                 <i class='bx bx-cart-alt icon'></i>
                                 <span class="text nav-text">Keranjang</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="#notifikasi">
                                 <i class='bx bx-home icon'></i>
                                 <span class="text nav-text">Notifikasi</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="#chat">
                                 <i class='bx bx-chat icon'></i>
                                 <span class="text nav-text">Chat</span>
                             </a>
                         </li>
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="#wallets">
                                 <i class='bx bx-wallet-alt icon'></i>
                                 <span class="text nav-text">Wallets</span>
                             </a>
@@ -66,7 +66,7 @@
     
                 <div class="bottom-content">
                     <li class="">
-                        <a href="#">
+                        <a href="#log-out">
                             <i class='bx bx-log-out icon'></i>
                             <span class="text nav-text">Log Out</span>
                         </a>
@@ -92,17 +92,62 @@
     
 
     <!--======Home Section========-->
-    <main class="main-home">
-    <section class="home">
-        <div class="home-kategori">Kategori</div>
-        <div class="kategori">
-            <li class="search-kategori">
-                <i class='bx bx-search-alt toggle'></i>
-                    <input type="search" placeholder="Cari Di Koperasi...">
-            </li>
-        </div>
-    </section>
+    <main class="main-home"> 
+        <div class="product-card">
+            <div class="logo-cart">
+              <img src="sutomo/SMA SUTOMO MEDAN.jpg" alt="Logo">
+              <i class='bx bx-shopping-bag'></i>
+            </div>
+            <div class="main-images">
+              <img src="pilot/pilot semua warna.jpg" alt="" class="semua-warna active" id="semua-warna">
+              <img src="pilot/pilot black.jpg" alt="pilot hitam" class="hitam" id="hitam">
+              <img src="pilot/pilot biru.jpg" alt="pilot biru" class="blue" id="blue">
+              <img src="pilot/pilot pink.jpg" alt="pilot pink" class="pink" id="pink">
+              <img src="pilot/pilot violet.jpg" alt="pilot violet" class="violet" id="violet">
+              <img src="pilot/pilot red.jpg" alt="pilot red" class="red" id="red">
+              <img src="pilot/pilot orange.jpg" alt="pilot orange" class="orange" id="orange">
+              <img src="pilot/pilot hijau.jpg" alt="pilot green" class="green" id="green">
+              <img src="pilot/pilot kuning.jpg" alt="pilot yellow" class="yellow" id="yellow">
+  
+            </div>
+            <div class="shoe-details">
+              <span class="shoe_name">PILOT MEKANIK 0.5MM</span>
+              <p>Pilot mekanik ini berasal dari jepang Dengan ukuran 0.5mm tipe REXGRIP</p>
+              <div class="stars">
+                <i class='bx bxs-star bx-flip-horizontal' ></i>
+                <i class='bx bxs-star bx-flip-horizontal' ></i>
+                <i class='bx bxs-star bx-flip-horizontal' ></i>
+                <i class='bx bxs-star bx-flip-horizontal' ></i>
+                <i class='bx bxs-star-half' ></i>
+              </div>
+            </div>
+            <div class="color-price">
+              <div class="color-option">
+                <span class="color">Colour :</span>
+                <div class="circles">
+                  <span class="circle hitam active" id="hitam"></span>
+                  <span class="circle pink" id="pink"></span>
+                  <span class="circle blue" id="blue"></span>
+                  <span class="circle violet" id="violet"></span>
+                  <span class="circle red" id="red"></span>
+                  <span class="circle orange" id="orange"></span>
+                  <span class="circle green" id="green"></span>
+                  <span class="circle yellow" id="yellow"></span>
+                </div>
+              </div>
+              <div class="price">
+                <span class="price_num">Rp 17.000</span>
+                <span class="price_letter">Tujuh Belas Ribu Rupiah</span>
+              </div>
+            </div>
+            <div class="button">
+              <div class="button-layer"></div>
+              <button>Add To Cart</button>
+            </div>
+          </div>
     </main>
+
+    <!--Swiper JS CSS-->
     <script src="script.js"></script>
 
 </body>
